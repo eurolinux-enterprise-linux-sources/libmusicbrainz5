@@ -4,7 +4,7 @@
 Summary: Library for accessing MusicBrainz servers
 Name: libmusicbrainz5
 Version: 5.0.1
-Release: 7%{?dist}
+Release: 9%{?dist}
 License: LGPLv2
 Group: System Environment/Libraries
 URL: http://www.musicbrainz.org/
@@ -79,6 +79,12 @@ rm -f docs/installdox
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 5.0.1-9
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 5.0.1-8
+- Mass rebuild 2013-12-27
+
 * Wed Jun 12 2013 Kalev Lember <kalevlember@gmail.com> - 5.0.1-7
 - Fix the libmusicbrainz4 obsoletes version
 
